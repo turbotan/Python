@@ -1,6 +1,4 @@
 import urllib.request
-import socket
-import json
 import hashlib
 
 baseurl = 'http://api.xbwq.com.cn/wq'
