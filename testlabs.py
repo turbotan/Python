@@ -1,9 +1,8 @@
 import utils
 
-time = utils.getCurrectTimeSeconds()
-
-print(time)
+print(utils.getCurrectTimeSeconds())
 
 print(utils.md5('11111111'))
 
-print(utils.httpRequst('http://www.baidu.com'))
+print(utils.httpRequst('http://xftest.xbwq.com.cn/xz/update/update/'))
+

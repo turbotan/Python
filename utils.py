@@ -8,7 +8,6 @@ def getCurrectTimeSeconds() :
 def md5(str):
     return  hashlib.md5(str.encode(encoding="utf-8")).hexdigest()
 
-
 def httpRequst(url, params):
     postdata = urllib.parse.urlencode(params).encode('utf-8')
     requestHeader = {'User-Agent': 'Fieldworks/1.1 (iPhone; iOS 11.1.2; Scale/2.00)'}
